@@ -1,6 +1,6 @@
-project: rnshah9/mayhem-minigraph
+project: minigraph
 target: minigraph
 
 cmds:
-  - cmd: /repo/minigraph /repo/test/MT.gfa @@
+  - cmd: /repo/minigraph /repo/test/MT.gfa /test.fa
     filepath: /test.fa
