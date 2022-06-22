@@ -1,6 +1,10 @@
 project: minigraph
 target: minigraph
+image: ghcr.io/rnshah9/playground:mayhem-minigraph
+testsuite:
+  - file://test
 
 cmds:
   - cmd: /repo/minigraph /repo/test/MT.gfa /test.fa
     filepath: /test.fa
+    max_length: 20000
