@@ -1,6 +1,5 @@
 project: minigraph
 target: minigraph
-image: ghcr.io/rnshah9/playground:mayhem-minigraph
 testsuite:
   - file://test
 
