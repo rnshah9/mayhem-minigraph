@@ -5,4 +5,5 @@ testsuite:
 
 cmds:
   - cmd: /minigraph /repo/test/MT.gfa @@
+    filepath: /test.fa
     max_length: 20000
